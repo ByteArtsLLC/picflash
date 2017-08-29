@@ -1,2 +1,2 @@
 # picflash
-Command-line utility for loading firmware on Microchip PIC controllers. Supports Windows, Mac, Linux and Raspberry Pi
+Command-line utility for loading firmware on Microchip PIC microcontrollers via USB HID interface. Supports Windows, Mac, Linux and Raspberry Pi. The PIC microcontroller needs to have the USB HID bootloader installed first, and then this program can be used to program (flash) new firmware into the microcontroller. It supports read, write, and verify operations. Since it is a command-line program, it can be used to automate the process via scripts or batch files.
